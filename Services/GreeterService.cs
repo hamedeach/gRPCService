@@ -25,7 +25,7 @@ namespace gRPCService.Services
             return Task.FromResult(new byeReply
             {
 
-                Byemessage = "bye bye"
+                Byemessage = "bye bye" + request.Name
 
             });
         }
